@@ -1,0 +1,9 @@
+maths = int(input("Enter Maths score: "))
+english = int(input("Enter English score: "))
+physics = int(input("Enter Physics score: "))
+chemistry = int(input("Enter Chemistry score: "))
+sanskrit = int(input("Enter Sanskrit score: "))
+result1 = maths+english+physics+chemistry+sanskrit
+print("Total Marks= ", result1)
+result2 = result1/5
+print("percentage= ", result2)
