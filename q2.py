@@ -1,3 +1,6 @@
-#Take name as input and greet the user.
-name = input("Enter your name: ")
-print("Hello,", name)
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+sum = a + b
+
+print("Sum of a and b =", sum)
